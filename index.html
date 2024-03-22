@@ -4,17 +4,18 @@
 <!--Head-->
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         Test page
     </title>
     <link rel="icon" href="favicon.png">
-    <style>
-        
-    </style>
+   <!-- <style> </style>-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <!--Body-->
 
-<body style="background-color: #D9D9D9;">
+<body>
     <!--headings + div-->
     <div>
         <h1>
@@ -107,12 +108,13 @@ pre
         <dd>jovan is a square</dd>
     </dl>
     <iframe src="https://www.youtube.com/@FiediRPZ" height="400" width="500" style="border:none"></iframe>
+    <iframe src="plswork.mp4" height="400" width="500" style="border:none"></iframe>
     <!--symbols, this works for other symbols too but just google the rest and follow same format-->
     <p>
         this is the euro symbol &euro;
     </p>
    <!--forms, lables and input-->
-    <form>
+    <form action="2ndpage.html" method="GET"> <!--could also use method = GET-->
             <label for="username">
                 input name
             </label><br>
@@ -122,13 +124,14 @@ pre
             </label><br>
             <input type="number" name="user_age" id="user_age"><br>
             <label for="user_school">
-                user school
+                user school SCK MND
             </label><br>
-            <input type="checkbox" name="user_school" id="user_school" value="burger">
-            <label for="user_school">
+            <input type="checkbox" name="user_school" id="user_school" value="SCK_MND"><br>
+            <label for="good_food">
                 pizza
             </label><br>
-            <input type="radio" name="user_school" id="user_school" value="burger">
+            <input type="radio" name="good_food" id="good_food" value="pizza"><br>
+            <input type="submit" value="send">
     </form>
 </body>
 

@@ -1,0 +1,8 @@
+/*body is a selector that finds the corresponding element on the html file
+and the content effects that element also use semicolons*/
+
+html, body {
+    height:100%;
+    width:100%;
+    background-color:antiquewhite;
+}
