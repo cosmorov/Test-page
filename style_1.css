@@ -1,0 +1,28 @@
+/*body is a selector that finds the corresponding element on the html file
+and the content effects that element also use semicolons. selectors can also be paired
+so that 2 elements will be affected wiht same effects*/
+html, body {
+    /*height and widht edits the size of the specified element*/
+    height:100%;
+    width:100%;
+    /*background-color changes the backround color of the element*/
+    background-color:antiquewhite;
+}
+/*id and headings are used to group elements*/
+#div1 {
+    background-color:aqua;
+}
+.heading {
+/*color changes color of text; text-decoration changes the decoration on a piece of text
+and opacity changes the opacity of an element;*/
+    color:red;
+    text-decoration:none;
+    opacity: 0.4;
+}
+h2.heading {
+/* text-align will aling your element to the selected area */
+    text-align: center;
+}
+/* * is used to select all elements {
+    color:red;
+} */
